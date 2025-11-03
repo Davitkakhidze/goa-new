@@ -1,0 +1,8 @@
+#მომხარებელს შემოატანინეთ ორი რიცხვი, შემდეგ ამ 2 რიცხვს შორის ჩაატარეთ ყველა არითმეტიკული ოპერატორი (+, -, *, /, **)
+user_number = int(input("enter your number"))
+user_number2 = int(input("enter your number"))
+print(user_number + user_number2)
+print(user_number - user_number2)
+print(user_number * user_number2)
+print(user_number / user_number2)
+print(user_number ** user_number2)

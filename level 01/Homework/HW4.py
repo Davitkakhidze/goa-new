@@ -1,0 +1,11 @@
+#დაპირნტტეთ თქვენი სახელი 10 ჯერ
+print("david")
+print("david")
+print("david")
+print("david")
+print("david")
+print("david")
+print("david")
+print("david")
+print("dvaid")
+print("david")

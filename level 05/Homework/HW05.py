@@ -1,0 +1,4 @@
+#შექმენით დროში მოგზაურობის პროგრამა, მომხარებელს შემოატანინეთ ასაკი, და დაპრინტეთ 10 წელში რამდენის იქნება იგი
+user_age = int(input("enter your age"))
+user_age2 = int(input("enter your age"))
+print(user_age + user_age2)
