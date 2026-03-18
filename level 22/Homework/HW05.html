@@ -1,0 +1,27 @@
+<!-- შექმენით form ა 6 შესაყვანი ველით და გენდერის ასარჩევით, გამოიყენეთ ყველა ატრიბუტი -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1>
+        <form action="/submit" method="post">
+            <label for="name">სახელი:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">ელ.ფოსტა:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">პაროლი:</label>
+            <input type="password" id="password" name="password" minlength="8" required><br><br>
+
+            <label for="age">ასაკი:</label>
+            <input type="number" id="age" name="age" min="1" max="20
+            " required><br><br>   
+        </form>
+    </h1>
+ </body>
+ </html>
