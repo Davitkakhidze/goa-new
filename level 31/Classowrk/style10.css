@@ -1,0 +1,13 @@
+body {
+    background-color: lightyellow;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+p {
+    color: red;
+    text-align: right;
+}
