@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sololearn Profile - Structure</title>
+</head>
+<body>
+
+    <!-- სემანტიკური ჰედერი მთლიანი საიტის ნავიგაციისთვის -->
+    <header>
+        <!-- ლოგოს კონტეინერი (არა სემანტიკური div და span) -->
+        <div class="logo-area">
+            <img src="sololearn-logo.png" alt="Sololearn Logo">
+            <span>sololearn</span>
+        </div>
+
+        <!-- სემანტიკური ნავიგაცია საიტის მენიუსთვის -->
+        <nav>
+            <ul>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Leaderboard</a></li>
+                <li><a href="#">Code Bits</a></li>
+                <li><a href="#">Discuss</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+
+        <!-- მარჯვენა მხარის ღილაკები -->
+        <div class="header-actions">
+            <button class="btn-pro">Go PRO</button>
+            <div class="profile-avatar-small">
+                <img src="avatar.png" alt="User Profile Mini">
+            </div>
+        </div>
+    </header>
+
+    <!-- მთავარი კონტენტის სემანტიკური ბლოკი -->
+    <main>
+
+        <!-- სექცია 1: მომხმარებლის პროფილის მუქი ბანერი -->
+        <section class="profile-hero">
+            <div class="profile-card">
+                <!-- პროფილის დიდი სურათი -->
+                <div class="avatar-large-wrapper">
+                    <img src="avatar-large.png" alt="ალექსანდრე მუყავა">
+                </div>
+                
+                <!-- მომხმარებლის ტექსტური ინფორმაცია -->
+                <div class="user-info">
+                    <h1>ალექსანდრე მუყავა</h1>
+                    
+                    <div class="followers-count">
+                        <span>1 Following</span>
+                        <span>1 Follower</span>
+                    </div>
+                    
+                    <div class="xp-rating">
+                        <span>⭐ 3,761 XP</span>
+                    </div>
+                    
+                    <div class="user-meta">
+                        <span>🇬🇪 Georgia - Lvl 8</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- სექცია 2: სოლოლერნის PRO აქციის ბანერი -->
+        <section class="pro-promo-banner">
+            <div class="promo-content">
+                <span>sololearn <strong>PRO</strong></span>
+                <div class="promo-graphic">
+                    <!-- კოდის ილუსტრაციის ადგილი -->
+                </div>
+                <button type="button">Start Today</button>
+            </div>
+        </section>
+
+        <!-- მთავარი დაშბორდის ვიჯეტების კონტეინერი -->
+        <div class="dashboard-widgets-grid">
+
+            <!-- ვიჯეტი 1: Streak (გამოყენებულია სემანტიკური article, რადგან დამოუკიდებელი ბლოკია) -->
+            <article class="widget streak-section">
+                <h3>Streak</h3>
+                
+                <!-- კვირის დღეების ბლოკი -->
+                <div class="days-tracker">
+                    <span class="day">M</span>
+                    <span class="day active">T</span>
+                    <span class="day active">W</span>
+                    <span class="day">T</span>
+                    <span class="day active">F</span>
+                    <span class="day">S</span>
+                    <span class="day active">S</span>
+                </div>
+
+                <!-- სტატისტიკის ბლოკები -->
+                <div class="streak-analytics">
+                    <div class="stat-item">
+                        <p>Current Streak</p>
+                        <span>🔥 0 days</span>
+                    </div>
+                    <div class="stat-item">
+                        <p>Longest Streak</p>
+                        <span>⚡ 3 days</span>
+                    </div>
+                    <div class="stat-item">
+                        <p>Streak Saver</p>
+                        <span>🛡️ 0 of 3</span>
+                        <button type="button">Get Streak Saver</button>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ვიჯეტი 2: Courses Progress -->
+            <article class="widget courses-section">
+                <div class="widget-header">
+                    <h3>Courses Progress</h3>
+                    <a href="#">Manage</a>
+                </div>
+                
+                <!-- მიმდინარე კურსის ბარათი -->
+                <div class="course-progress-card">
+                    <div class="course-icon">HTML</div>
+                    <div class="course-details">
+                        <h4>Introduction to HTML</h4>
+                        <p>Complete</p>
+                    </div>
+                    <button class="btn-play" aria-label="Continue Course">▶</button>
+                </div>
+            </article>
+
+            <!-- ვიჯეტი 3: Code Bits -->
+            <article class="widget code-bits-section">
+                <h3>Code Bits</h3>
+                <div class="empty-state-message">
+                    <p>You don't have any saved codes yet</p>
+                    <button type="button" class="btn-add-new">Add New</button>
+                </div>
+            </article>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
