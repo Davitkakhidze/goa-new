@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vowel Count</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 350px;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        h2 { color: #333; }
+        p { font-size: 1.2rem; font-weight: bold; color: #2ecc71; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>ხმოვნების დამთვლელი</h2>
+    <input type="text" id="textInput" placeholder="ჩაწერე ტექსტი ინგლისურად..." oninput="countAndDisplay()">
+    <p>ხმოვნების რაოდენობა: <span id="result">0</span></p> 
+</div>
+
+<script>
+   
+    function getCount(str) {
+        let vowelsCount = 0;
+        const vowels = ['a', 'e', 'i', 'o', 'u'];
+        
+        for (let char of str) {
+            if (vowels.includes(char)) {
+                vowelsCount++;
+            }
+        }
+        
+        return vowelsCount;
+    }
+
+    function countAndDisplay() {
+        const inputVal = document.getElementById("textInput").value;
+        document.getElementById("result").innerText = getCount(inputVal);
+    }
+</script>
+
+</body>
+</html>

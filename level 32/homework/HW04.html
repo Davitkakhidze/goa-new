@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter the Number</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 380px;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        h2 { color: #333; }
+        p { font-size: 1.2rem; font-weight: bold; color: #9b59b6; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>ციფრების გაფილტვრა ტექსტიდან</h2>
+    <input type="text" id="textInput" placeholder="ჩაწერე არეული ტექსტი (მაგ: a1b2c3)..." oninput="filterAndDisplay()">
+    <p>მიღებული რიცხვი: <span id="result">0</span></p> 
+</div>
+
+<script>
+  
+    var filterString = function(value) {
+       
+        let numbersOnly = value.replace(/[^0-9]/g, '');
+        
+    
+        return Number(numbersOnly);
+    }
+
+    function filterAndDisplay() {
+        const inputVal = document.getElementById("textInput").value;
+        const resultSpan = document.getElementById("result");
+        
+        const output = filterString(inputVal);
+        resultSpan.innerText = output;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who ate the cookie?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #e67e22;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>ვინ შეჭამა ბოლო ორცხობილა?</h2>
+        <p id="result"></p>
+    </div>
+
+    <script>
+  
+        function cookie(x) {
+            let name;
+
+            if (typeof x === "string") {
+                name = "Zach";
+            } else if (typeof x === "number") {
+                name = "Monica";
+            } else {
+                name = "the dog";
+            }
+
+            return Who ate the last cookie ? It was ${ name } !;
+        }
+
+        const testInput = "hi";
+
+        document.getElementById("result").innerText = cookie(testInput);
+    </script>
+
+</body>
+
+</html>
