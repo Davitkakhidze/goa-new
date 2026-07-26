@@ -1,0 +1,51 @@
+
+.task1 {
+    text-decoration: underline solid blue;
+}
+
+
+.task2 {
+    text-decoration: line-through dashed red;
+}
+
+.task3 {
+    text-decoration: overline wavy green;
+}
+
+.task4 {
+    text-decoration: underline dotted purple 3px;
+}
+
+
+.task5 {
+    text-decoration: underline solid orange 5px;
+}
+
+.task6 {
+    text-decoration: line-through wavy rgb(255, 0, 255) 5px;
+}
+
+.task7 {
+    text-decoration: overline dashed #00BFFF 4px;
+}
+
+.task8 {
+    text-decoration: underline dotted brown 6px;
+}
+
+
+.task9 {
+    text-decoration: line-through solid black 2px;
+}
+
+.task10 {
+    text-decoration: underline dashed red;
+}
+
+.task10   {
+    text-decoration: line-through wavy blue;
+}
+
+.task10   {
+    text-decoration: overline dotted green 4px;
+}

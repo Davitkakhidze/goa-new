@@ -1,0 +1,46 @@
+h1.task1-1 {
+    text-decoration: underline solid navy;
+}
+
+
+h2.task1-2 {
+    text-decoration: line-through dashed crimson;
+}
+
+
+h3.task1-3 {
+    text-decoration: overline wavy darkgreen;
+}
+
+p.task1-4 {
+    text-decoration: underline dotted teal 3px;
+}
+
+
+a.task1-5 {
+    text-decoration: underline solid coral 5px;
+}
+
+
+
+h1.task2-1 {
+    text-transform: uppercase;
+}
+
+
+p.task2-2 {
+    text-transform: lowercase;
+}
+
+h2.task2-3 {
+    text-transform: capitalize;
+}
+
+span.task2-4 {
+    text-transform: uppercase;
+}
+
+
+a.task2-5 {
+    text-transform: lowercase;
+}
