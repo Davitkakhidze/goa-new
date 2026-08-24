@@ -1,0 +1,40 @@
+     body {
+         font-family: sans-serif;
+         background-color: #f4f4f9;
+         padding: 20px;
+     }
+
+     div {
+         background-color: #e2e8f0;
+         border: 1px solid #cbd5e1;
+     }
+
+     .mar-box1 {
+         margin-bottom: 30px;
+     }
+
+     .mar-box2 {}
+
+     ar-h1 {
+         margin-bottom: 20px;
+     }
+
+     .mar-top-box {
+         margin-top: 50px;
+     }
+
+     .mar-btn-container button {
+         padding: 10px 20px;
+     }
+
+     .mar-btn-container button+button {
+         margin-left: 15px;
+     }
+
+     .mar-card-center {
+         width: 300px;
+         background-color: #ffffff;
+         border: 1px solid #ccc;
+         padding: 20px;
+         margin: 20px auto;
+     }

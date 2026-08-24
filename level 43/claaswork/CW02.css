@@ -1,0 +1,19 @@
+.margin-box {
+    margin: 20px;
+}
+
+.margin-task-2 {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.margin-auto {
+    width: 50%;
+    margin: 20px auto;
+}

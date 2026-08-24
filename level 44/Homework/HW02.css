@@ -1,0 +1,25 @@
+   .parent {
+     display: flex;
+     border: 2px solid #333;
+     background-color: #f0f0f0;
+     margin-bottom: 20px;
+   }
+
+   .child {
+     width: 50px;
+     height: 50px;
+     background-color: #4CAF50;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: bold;
+     border: 1px solid white;
+   }
+
+   .task2 {
+     width: 600px;
+     height: 700px;
+     justify-content: flex-end;
+     align-items: center;
+   }

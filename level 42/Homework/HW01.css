@@ -1,0 +1,39 @@
+    .task11 {
+      list-style-type: square;
+    }
+
+    .task12 {
+      list-style-type: lower-alpha;
+    }
+
+ 
+    .task13 {
+      list-style-type: decimal-leading-zero;
+    }
+
+
+    .task14 {
+      list-style-type: circle;
+    }
+
+
+    .task15 {
+      list-style-type: lower-roman;
+    }
+
+  
+    .task16 {
+      list-style-type: upper-latin;
+    }
+
+    .task17 {
+      list-style-type: disc;
+    }
+
+    .task18-1 {
+      list-style-type: upper-roman;
+    }
+    
+    .task18-2 {
+      list-style-type: lower-alpha;
+    }
