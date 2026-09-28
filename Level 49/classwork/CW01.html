@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    body {
+      background-color: #121212;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+   
+    .container {
+      display: flex;
+      border: 6px solid #ffffff;
+      background-color: #ffffff;
+      gap: 6px; 
+    }
+
+    
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: #38b04a; 
+      position: relative;
+    }
+
+    
+    .box-left .blue-area {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 120px;
+      height: 100px;
+      background-color: #1a59a7; 
+    }
+
+    .box-left .yellow-area {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 80px;
+      height: 80px;
+      background-color: #f3ad2e;
+    }
+
+    
+    .box-right {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .box-right .inner-blue {
+      width: 100%;
+      height: 100%;
+      background-color: #1a59a7; 
+      position: relative;
+    }
+
+    .box-right .yellow-area {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 70px;
+      height: 70px;
+      background-color: #f3ad2e; 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+   
+    <div class="box box-left">
+      <div class="yellow-area"></div>
+      <div class="blue-area"></div>
+    </div>
+
+ 
+    <div class="box box-right">
+      <div class="inner-blue">
+        <div class="yellow-area"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
