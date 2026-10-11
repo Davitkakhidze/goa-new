@@ -1,0 +1,10 @@
+.hover-link {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.hover-link:hover {
+    color: red;
+}

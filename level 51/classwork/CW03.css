@@ -1,0 +1,8 @@
+.task-3 {
+    width: 400px;
+    height: 400px;
+    background-color: blue; 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBkGmgumg-UuvIxiO9GO4dXgaqAm5TO0q8jKzynD9Zw&s=10');
+    background-size: contain; 
+    background-repeat: no-repeat;
+}

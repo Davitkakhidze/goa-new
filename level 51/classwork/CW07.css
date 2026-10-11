@@ -1,0 +1,31 @@
+.content-box {
+    width: 250px;
+    height: 150px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+}
+
+.box-1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBkGmgumg-UuvIxiO9GO4dXgaqAm5TO0q8jKzynD9Zw&s=10');
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBkGmgumg-UuvIxiO9GO4dXgaqAm5TO0q8jKzynD9Zw&s=10');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box-3 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBkGmgumg-UuvIxiO9GO4dXgaqAm5TO0q8jKzynD9Zw&s=10');
+    background-position: right bottom;
+    background-size: 100px 100px;
+    background-repeat: repeat-x;
+}

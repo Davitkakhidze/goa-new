@@ -1,0 +1,12 @@
+.hover-div {
+    width: 300px;
+    padding: 20px;
+    background-color: lightgray;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.hover-div:hover {
+    font-family: 'Bree Serif', serif;
+    background-color: yellow;
+}
