@@ -1,0 +1,18 @@
+.child{
+    width: 60px;
+    height: 60px;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.parent-7{
+    width: 500px;
+    height: 700px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
