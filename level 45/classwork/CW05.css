@@ -1,0 +1,13 @@
+.parent-5{width: 700px;
+          height: 400px;
+          display: flex;
+          flex-direction: row-reverse;
+          flex-wrap: wrap;
+          border: 2px solid black;
+        }
+        .parent-5 .child {
+            width: 80px;
+            height: 80px;
+            background-color: lightblue;
+            margin: 5px;
+        }
